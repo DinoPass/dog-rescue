@@ -1,0 +1,14 @@
+GET http://localhost:3001/dogs
+
+###
+
+POST http://localhost:3001/dogs HTTP/1.1
+Content-Type: application/json
+
+{
+    "size": "Medium",
+    "breed": "French Bulldog",
+    "weight": "30",
+    "age": "3",
+    "color": "Black"
+}
